@@ -17,11 +17,42 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link{
-    color: white;
+    color: honeydew;
     padding-left: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link .active,
 .navbar-dark .navbar-nav .nav-link{
     color:grey
+}
+
+.heading-content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 3em;
+    font-weight: 300;
+    color: honeydew;
+    font-family: monospace;
+}
+
+.heading-content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color: honeydew;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading-content p{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: honeydew;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
 }
