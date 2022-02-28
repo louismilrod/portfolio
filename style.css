@@ -12,7 +12,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2rem;
-    background: rgb(red, green, blue), transparent;
+    background: rgb(red, green, blue), !important;
     padding: 20px 0;
     position: fixed;
 }
@@ -106,4 +106,52 @@ body {
     display: block;
     content: "";
     height: 7rem;
+}
+
+.sec1 h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.sec1 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* ---------- Media Query --------- */
+@media screen and (max-width: 767px){
+    .navbar {
+        letter-spacing: .1em;
+        padding: 10px 0;
+    }
+    .heading-content h5{
+        font-size: 3em;
+    }
+    .heading-content h1{
+        font-size: 3em;
+    }
+    .heading-content p{
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 479px){
+    .navbar{
+        letter-spacing: .1em;
+        padding: 7px 0;
+    }
+    .heading-content h5{
+        font-size: 2em
+    }
+    .heading-content h1{
+        font-size: 2em
+    }
+    .heading-content p{
+        font-size: .07em
+    }
+
+    #contact .post-heading h3{
+        font-size: 2em;
+    }
 }
