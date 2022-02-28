@@ -12,8 +12,9 @@ body {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2rem;
-    background: rgb(red, green, blue) !important;
+    background: rgb(red, green, blue), !important;
     padding: 20px 0;
+    position: fixed;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -75,6 +76,28 @@ body {
 }
 
 #about .btn:hover{
+    border: 2px solid rgb(247, 0, 255);    
+    cursor: pointer;
+}
+
+/* ---------Projects Start ---------- */
+#projects .button{
+    border: 2px solid red transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+}
+
+#projects .button a{
+    color: honeydew;
+    text-rendering: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#projects .button:hover{
     border: 2px solid rgb(247, 0, 255);    
     cursor: pointer;
 }
