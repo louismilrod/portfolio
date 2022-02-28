@@ -56,3 +56,25 @@ body {
     letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
 }
+
+/* ---------About Start ---------- */
+#about .btn{
+    border: 2px solid red transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+}
+
+#about .btn a{
+    color: honeydew;
+    text-rendering: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border: 2px solid rgb(247, 0, 255);    
+    cursor: pointer;
+}
