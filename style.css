@@ -12,7 +12,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2rem;
-    background: rgb(red, green, blue), !important;
+    background: rgb(red, green, blue), transparent;
     padding: 20px 0;
     position: fixed;
 }
@@ -22,7 +22,7 @@ body {
     padding-left: 20px;
 }
 
-.navbar-dark .navbar-nav .nav-link .active,
+.navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link{
     color:grey
 }
@@ -100,4 +100,10 @@ body {
 #projects .button:hover{
     border: 2px solid rgb(247, 0, 255);    
     cursor: pointer;
+}
+
+.offset:before{
+    display: block;
+    content: "";
+    height: 7rem;
 }
