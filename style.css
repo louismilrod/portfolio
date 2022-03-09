@@ -29,7 +29,7 @@ body {
 
 .heading-content {
     position: absolute;
-    top: 40%;
+    top: 12.5%;
     width: 100%;
     max-width: 100%;
 }
@@ -71,20 +71,24 @@ body {
     color: honeydew;
     text-rendering: none;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: bold;    
     text-transform: uppercase;
 }
 
 #about .btn:hover{
-    border: 2px solid rgb(247, 0, 255);    
+    color: grey;
     cursor: pointer;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 75%;
 }
 
 /* ---------Projects Start ---------- */
 #projects .button{
     border: 2px solid red transparent;
     width: 40%;
-    padding: 15px 22px;
     background: #000;
     border-radius: 5px;
 }
@@ -98,8 +102,12 @@ body {
 }
 
 #projects .button:hover{
-    border: 2px solid rgb(247, 0, 255);    
+    color: grey;      
     cursor: pointer;
+}
+
+.bigbutton{
+    padding: 12px;
 }
 
 .offset:before{
